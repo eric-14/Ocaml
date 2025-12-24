@@ -1,0 +1,10 @@
+In Ocaml we can perform marshalling of types- 
+this is where we write types to the output channel bypassing strong type requirements. 
+
+However, this has a strong caveat in that reading the types from the output channel
+
+will cause type mismatches with if type input is not handled correctly. 
+During reading the compiler will infer this types however, when reading the types you can 
+define their respective types. 
+
+
