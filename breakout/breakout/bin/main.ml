@@ -26,10 +26,9 @@ let rec play (x,y) (vx, vy) =
 
 let () = 
       Draw.init (); 
-      let speed = 0.01 in 
+      let speed = 0.2 in 
       let vx = speed *. Random.float 1. in 
       let vy = speed *. Random.float 1. in 
       play (Draw.right /. 2. , float Draw.paddle +. float Draw.thick) (vx, vy)
-
 
 

@@ -1,12 +1,12 @@
 open Graphics 
 
 let left = 0. 
-let right = 300. 
+let right = 1000. 
 let down = 0. 
-let up = 200. 
-let ball = 5 
-let paddle = 50 
-let thick = 8 
+let up = 600. 
+let ball = 20
+let paddle = 150
+let thick = 40
 
 let gray = rgb 220 220 220 
 
