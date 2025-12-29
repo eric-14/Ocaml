@@ -1,0 +1,26 @@
+(lang dune 3.19)
+
+(name breakout)
+
+(generate_opam_files true)
+
+(source
+ (github eric-14/Ocaml))
+
+(authors "Eric Mwangi <author@example.com>")
+
+(maintainers "Eric Mwangi <maintainer@example.com>")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name breakout)
+ (synopsis "Project Break out")
+ (description "A small Ocaml Project to play break out as a game")
+ (depends ocaml)
+ (tags
+  ("add topics" "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

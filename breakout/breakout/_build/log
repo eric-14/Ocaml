@@ -1,0 +1,16 @@
+# dune exec breakout
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/eric/.cache/dune/db
+# Workspace root: /home/eric/Desktop/ocaml/breakout/breakout
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/eric/.opam/default/bin/ocamlc.opt -config > /tmp/dune_267bcc_output

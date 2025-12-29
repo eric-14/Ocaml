@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/breakout/META"
+  "_build/install/default/lib/breakout/dune-package"
+  "_build/install/default/lib/breakout/opam"
+]
+bin: [
+  "_build/install/default/bin/breakout"
+]
